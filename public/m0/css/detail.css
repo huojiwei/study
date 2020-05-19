@@ -1,0 +1,107 @@
+.product-box{
+    font-size: 14px;
+    color: #333;
+}
+.product-title{
+    border-bottom: 1px solid #ccc;
+}
+.product-title a{
+    height: 100%;
+}
+.product-title img{
+    width: 100%;
+}
+.product-title h3{
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #111;
+}
+.product-price{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+.product-price .price{
+    font-size: 18px;
+    color: #ea543d;
+}
+.product-price .old-price{
+    text-decoration: line-through;
+    color: #ccc;
+}
+.prduct-size{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+.prduct-size span{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.prduct-size .active{
+    background: #fa672d;
+    color: #fff;
+}
+.prduct-num{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 28px;
+}
+.prduct-num .num-l,
+.prduct-num .num-r{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 28px;
+    font-size: 20px;
+    float: left;
+}
+.prduct-num .num-l{
+    margin-left: 10px;
+}
+.prduct-num .num{
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    float: left;
+    border-left: none;
+    border-right: none;
+}
+.prduct-num .num-r{
+    margin-right: 10px;
+}
+.prduct-num .kucun{
+
+}
+.shop-car{
+    padding: 10px;
+    overflow: hidden;
+}
+.shop-car span{
+    width: 50%;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    float: left;
+}
+.shop-car span:first-child{
+    background: #fa672d;
+}
+.shop-car span:last-child{
+    background: #991020;
+}

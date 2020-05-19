@@ -1,0 +1,13 @@
+.vCode{
+    position: relative;
+}
+
+#register{
+    width: 92%;
+}
+#login{
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
